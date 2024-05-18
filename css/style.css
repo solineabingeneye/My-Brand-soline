@@ -1,0 +1,141 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    background-color: rgb(249, 223, 190);
+    width: 100%;
+    height: 3rem;
+    position: fixed;
+    display: flex;
+   justify-content: space-between;
+    padding: 20px 120px;
+}
+
+.logo{
+    font-size: 18px;
+    color: black;
+}
+
+header ul{
+    font-size: 18px;
+    display: flex;
+    gap: 3rem;
+    
+}
+header ul li a{
+    color: black;
+
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 20rem;
+    height: 40rem;
+}
+
+
+/* home */
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container img{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  background-color: black;
+}
+button{
+    width: 7rem;
+    height: 2rem;
+    border-radius: 10px;
+     background-color: black;
+     color: white;
+}
+
+
+/* about */
+.about-container{
+    /* width: 100%; */
+    display: flex;
+    gap: 5rem;
+}
+.skills{
+    font-weight: bold;
+}
+.main-cont h1{
+    font-weight: 800;
+    font-size: 28px;
+    padding-bottom: 2rem;
+}
+.main-cont li{
+  line-height: 28px;
+}
+
+/* blogs */
+ .blog-container{
+    display: flex;
+    gap: 2rem;
+ }
+  .blog-container img{
+    width: 15rem;
+    height: 10rem;
+  }
+
+
+  /* contact */
+form{
+    padding-top: 2rem;
+}
+  input[type="text"] {
+  border: 0;
+     background-color:  antiquewhite;
+  outline: 0;
+  width: 100%;
+  padding-top: 1rem;
+  color: black;
+   border-bottom: 1px solid black;
+}
+textarea {
+  border: 0;
+    background-color:  antiquewhite;
+  border-bottom: 1px solid black;
+  outline: 0;
+  width: 100%;
+  height: 5rem;
+  padding-top: 1rem;
+
+  color: black;
+}
+
+/* footer */
+
+.allmainf{
+ display: flex;
+ justify-content: center;
+}
+.mainf{
+    display: flex;
+    gap: 5rem;
+    color: blue;
+}
+.mainf i{
+ color: blue;   
+}
